@@ -26,7 +26,7 @@ dependencies {
   // Do not use gradleApi() as it forces Kotlin 1.4 on the classpath
   compileOnly("dev.gradleplugins:gradle-api:7.6.3")
   
-  testImplementation("dev.gradleplugins:gradle-test-kit:8.4")
+  testImplementation(gradleTestKit())
   testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
