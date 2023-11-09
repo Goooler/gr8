@@ -15,7 +15,7 @@ version = "0.1"
 val agpTest = configurations.detachedConfiguration(dependencies.create("com.android.tools.build:gradle-api:8.1.0-alpha10") {
   isTransitive = false
 })
-val gradleTest = configurations.detachedConfiguration(dependencies.create("dev.gradleplugins:gradle-api:6.9") {
+val gradleTest = configurations.detachedConfiguration(dependencies.create("dev.gradleplugins:gradle-api:6.9.4") {
   isTransitive = false
 })
 
