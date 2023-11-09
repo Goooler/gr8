@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-  api("dev.gradleplugins:gradle-api:6.7")
+  api("dev.gradleplugins:gradle-api:6.9.4")
   implementation("net.mbonnin.r8:r8:8.3.8")
 }
 
