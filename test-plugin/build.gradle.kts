@@ -15,7 +15,7 @@ version = "0.1"
 val agpTest = configurations.detachedConfiguration(dependencies.create("com.android.tools.build:gradle-api:8.1.0-alpha10") {
   isTransitive = false
 })
-val gradleTest = configurations.detachedConfiguration(dependencies.create("dev.gradleplugins:gradle-api:6.9") {
+val gradleTest = configurations.detachedConfiguration(dependencies.create("dev.gradleplugins:gradle-api:8.4") {
   isTransitive = false
 })
 
@@ -24,7 +24,7 @@ check(gradleTest.files.single().isGradleApi())
 
 dependencies {
   // Do not use gradleApi() as it forces Kotlin 1.4 on the classpath
-  compileOnly("dev.gradleplugins:gradle-api:7.6.3")
+  compileOnly("dev.gradleplugins:gradle-api:8.4")
   
   testImplementation("dev.gradleplugins:gradle-test-kit:6.9.4")
   testImplementation("org.jetbrains.kotlin:kotlin-test")
