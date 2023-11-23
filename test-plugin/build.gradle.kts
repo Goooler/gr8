@@ -3,7 +3,7 @@ import org.gradle.api.attributes.Usage.JAVA_API
 import org.w3c.dom.Element
 
 plugins {
-  id("org.jetbrains.kotlin.jvm").version("1.5.21")
+  id("org.jetbrains.kotlin.jvm").version("1.9.21")
   id("maven-publish")
   id("com.gradleup.gr8.external")
 }

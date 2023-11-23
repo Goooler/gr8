@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
   implementation("net.mbonnin.vespene:vespene-lib:0.5")
-  implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
+  implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.21")
   implementation("com.gradle.publish:plugin-publish-plugin:1.2.1")
   implementation("com.gradleup:gr8-plugin:0.6")
 }
